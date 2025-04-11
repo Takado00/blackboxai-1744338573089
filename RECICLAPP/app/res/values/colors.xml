@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#8BC34A</color>
+    
+    <!-- Secondary colors -->
+    <color name="colorSecondary">#03A9F4</color>
+    <color name="colorSecondaryDark">#0288D1</color>
+    
+    <!-- Text colors -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textColorLight">#FFFFFF</color>
+    
+    <!-- Background colors -->
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="surfaceColor">#FFFFFF</color>
+    <color name="dividerColor">#BDBDBD</color>
+    
+    <!-- Status colors -->
+    <color name="successColor">#4CAF50</color>
+    <color name="errorColor">#F44336</color>
+    <color name="warningColor">#FFC107</color>
+    <color name="infoColor">#2196F3</color>
+    
+    <!-- Material type colors -->
+    <color name="plasticColor">#2196F3</color>
+    <color name="paperColor">#795548</color>
+    <color name="glassColor">#00BCD4</color>
+    <color name="metalColor">#9E9E9E</color>
+    <color name="organicColor">#8BC34A</color>
+    
+    <!-- Rating colors -->
+    <color name="ratingStarFilled">#FFC107</color>
+    <color name="ratingStarEmpty">#BDBDBD</color>
+    
+    <!-- Transparent colors -->
+    <color name="transparentBlack">#80000000</color>
+    <color name="transparentWhite">#80FFFFFF</color>
+</resources>
