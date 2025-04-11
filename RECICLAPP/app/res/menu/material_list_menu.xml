@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Filtrar"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/filter_rating"
+                android:title="Por Calificación"/>
+            <item
+                android:id="@+id/filter_location"
+                android:title="Por Ubicación"/>
+            <item
+                android:id="@+id/filter_date"
+                android:title="Por Fecha"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_my_materials"
+        android:title="Mis Materiales"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_my_transactions"
+        android:title="Mis Transacciones"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:title="Notificaciones"
+        app:showAsAction="ifRoom"/>
+
+</menu>
