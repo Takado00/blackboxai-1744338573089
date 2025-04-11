@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- For accessing files in the app's internal storage -->
+    <files-path
+        name="internal_files"
+        path="." />
+    
+    <!-- For accessing files in the app's cache directory -->
+    <cache-path
+        name="internal_cache"
+        path="." />
+    
+    <!-- For accessing files in external storage -->
+    <external-path
+        name="external_files"
+        path="." />
+    
+    <!-- For accessing files in external cache -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+    
+    <!-- For accessing files in external media -->
+    <external-media-path
+        name="external_media"
+        path="." />
+    
+    <!-- For accessing files in specific app external files directory -->
+    <external-files-path
+        name="external_files_path"
+        path="." />
+</paths>
