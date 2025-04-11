@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">RECICLAPP</string>
+
+    <!-- General -->
+    <string name="loading">Cargando…</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="share">Compartir</string>
+
+    <!-- Authentication -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="user_type">Tipo de usuario</string>
+    <string name="login_success">Inicio de sesión exitoso</string>
+    <string name="register_success">Registro exitoso</string>
+    <string name="user_exists">El usuario ya existe</string>
+    <string name="invalid_credentials">Credenciales inválidas</string>
+
+    <!-- User Types -->
+    <string name="type_company">Empresa</string>
+    <string name="type_recycler">Reciclador</string>
+    <string name="type_person">Persona</string>
+    <string name="type_admin">Administrador</string>
+
+    <!-- Materials -->
+    <string name="materials">Materiales</string>
+    <string name="add_material">Agregar Material</string>
+    <string name="material_name">Nombre del material</string>
+    <string name="material_description">Descripción</string>
+    <string name="material_location">Ubicación</string>
+    <string name="material_quantity">Cantidad disponible</string>
+    <string name="material_type">Tipo de material</string>
+    <string name="material_added">Material agregado exitosamente</string>
+    <string name="material_updated">Material actualizado exitosamente</string>
+    <string name="material_deleted">Material eliminado exitosamente</string>
+
+    <!-- Material Types -->
+    <string name="type_plastic">Plástico</string>
+    <string name="type_paper">Papel/Cartón</string>
+    <string name="type_glass">Vidrio</string>
+    <string name="type_metal">Metal</string>
+    <string name="type_organic">Orgánico</string>
+    <string name="type_other">Otro</string>
+
+    <!-- Recycling Tips -->
+    <string name="tips">Tips de Reciclaje</string>
+    <string name="filter_by_type">Filtrar por tipo</string>
+    <string name="all_types">Todos los tipos</string>
+    <string name="no_tips_found">No se encontraron tips</string>
+    <string name="add_tip">Agregar Tip</string>
+
+    <!-- Transactions -->
+    <string name="transactions">Transacciones</string>
+    <string name="new_transaction">Nueva Transacción</string>
+    <string name="transaction_history">Historial de Transacciones</string>
+    <string name="transaction_status">Estado de la transacción</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_completed">Completada</string>
+    <string name="status_cancelled">Cancelada</string>
+
+    <!-- Profile -->
+    <string name="profile">Perfil</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="my_materials">Mis Materiales</string>
+    <string name="my_transactions">Mis Transacciones</string>
+    <string name="settings">Configuración</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Validation Messages -->
+    <string name="required_fields">Por favor complete todos los campos</string>
+    <string name="invalid_email">Por favor ingrese un correo electrónico válido</string>
+    <string name="password_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="quantity_required">Por favor ingrese una cantidad válida</string>
+    <string name="location_required">Por favor ingrese una ubicación</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notificaciones</string>
+    <string name="new_material_notification">Nuevo material disponible</string>
+    <string name="transaction_notification">Nueva transacción</string>
+    <string name="rating_notification">Nueva valoración recibida</string>
+</resources>
